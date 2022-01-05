@@ -1,0 +1,7 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+promo-theme.com	TRUE	/mato/	FALSE	1999999999	woocommerce_items_in_cart	1
+promo-theme.com	TRUE	/mato/	FALSE	1999999999	wp_woocommerce_session_cb87d26c5961ca4f82b57e5a918e3872	e28ea69d04bd49e218feec9109a23d08%7C%7C1641466765%7C%7C1641463165%7C%7Cc42a4dbccb0aa672ed10db1b58513d44
+promo-theme.com	TRUE	/mato/	FALSE	1999999999	woocommerce_cart_hash	2460b8a5a845ee502fcc33aa113ed0a7
+promo-theme.com	TRUE	/	FALSE	1999999999	PHPSESSID	d8859f52ab0a6376f0ef7bdd56ed1443
+
