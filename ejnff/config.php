@@ -1,12 +1,11 @@
 <?php
-// Database configuration
-$dbHost     = "localhost";
-$dbUsername = "root";
-$dbPassword = "";
-$dbName     = "wwwjnff_jnff";
-
+$db = '';
 // Create database connection
-$db = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);
+if ($_SERVER['HTTP_HOST'] == 'localhost') {
+    $db = new mysqli('localhost', 'root', '', 'wwwjnff_jnff');
+} else {
+    $db = new mysqli('localhost', 'wwwjnff_jnff', 'hf+TPq8T2RJh', 'wwwjnff_jnff');
+}
 
 // Check connection
 if ($db->connect_error) {

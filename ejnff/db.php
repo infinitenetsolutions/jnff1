@@ -1,7 +1,17 @@
 <?php
 //error_reporting(0);
-$conn=mysqli_connect("localhost","root","","wwwjnff_jnff");
-$db=  mysqli_connect("localhost","root","","wwwjnff_jnff");
+
+
+if ($_SERVER['HTTP_HOST'] == 'localhost') {
+    $conn=mysqli_connect("localhost","root","","wwwjnff_jnff");
+    $db=  mysqli_connect("localhost","root","","wwwjnff_jnff");
+} else {
+    $conn = new mysqli('localhost', 'wwwjnff_jnff', 'hf+TPq8T2RJh', 'wwwjnff_jnff');
+    $db = new mysqli('localhost', 'wwwjnff_jnff', 'hf+TPq8T2RJh', 'wwwjnff_jnff');
+
+}
+
+
 
 if($conn->connect_error)
 {
